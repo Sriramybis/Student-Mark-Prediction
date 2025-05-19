@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Student Exam Performance</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
   </head>
   <body>
-    Hello world
+    <div class="login">
+      <h1>Welcome to Student Exam Performance Predictor</h1>
+
+      <!-- Centered Button Container -->
+      <div class="button-container">
+        <a href="{{ url_for('predict_datapoint') }}" class="enter-btn"
+          >Enter Details</a
+        >
+      </div>
+    </div>
   </body>
 </html>
