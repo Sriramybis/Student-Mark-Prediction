@@ -1,1 +1,1 @@
-## First end to end with deployment
+## First personal end to end project with deployment
